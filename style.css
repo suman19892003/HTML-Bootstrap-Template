@@ -4,6 +4,7 @@ html,body{
   width: 100%;
   font-family: 'Poppins','sans-serif';
   color: #222;
+  overflow-x: hidden;
 }
 .navbar{
   padding: .8rem;/*-- 1 rem =16 px */
@@ -233,6 +234,19 @@ figure {
     padding: 1rem;
 }
 
+.navbar-text img {
+  max-height:30px;
+  width:auto;
+  vertical-align:middle;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-text a{
+  color: rgba(0,0,0,.5);
+}
 
 
 
